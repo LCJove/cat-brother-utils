@@ -5,7 +5,7 @@
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "scripts": {
-    "dev": "father dev",
+    "dev:lib": "pnpm run --parallel --if-present --recursive --filter \"@cat-brother-utils/*\" dev",
     "build": "pnpm run --if-present --recursive --filter \"@cat-brother-utils/*\" build",
     "build:deps": "father prebundle",
     "prepublishOnly": "father doctor && npm run build"

@@ -1,6 +1,6 @@
 {
   "name": "@cat-brother-utils/telegram",
-  "version": "1.4.7",
+  "version": "0.0.1",
   "main": "dist/lib/index.js",
   "module": "dist/esm/index.js",
   "typings": "dist/esm/index.d.ts",
